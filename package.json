@@ -1,0 +1,9 @@
+{
+  "name": "paronymie",
+  "version": "1.0.0",
+  "description": "Le site des (fictives) Éditions Paronymie",
+  "main": "index.js",
+  "repository": "git@github.com:iwazaru/paronymie.git",
+  "author": "Clément Bourgoin <c@iwzr.fr>",
+  "license": "MIT"
+}
