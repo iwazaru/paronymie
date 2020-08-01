@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:iwazaru/paronymie.git",
   "author": "Clément Bourgoin <c@iwzr.fr>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "elytre start",
+    "build": "elytre build"
+  },
+  "dependencies": {
+    "elytre": "0.11.0"
+  }
 }
