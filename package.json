@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:iwazaru/paronymie.git",
   "author": "Clément Bourgoin <c@iwzr.fr>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "walden start",
+    "build": "walden build"
+  },
+  "dependencies": {
+    "@iwazaru/walden": "0.6.2"
+  }
 }
