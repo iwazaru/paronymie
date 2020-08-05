@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
+.WaldenSite {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: auto;
+  max-width: 768px;
+  padding: 20px;
+}
+
+.Header .Header-site-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.Product {
+  margin: 20px 0;
+}
+
+.Product .Product-title {
+  font-size: 20px;
+  margin-bottom: .25em;
+}
+
+.Product .Product-author {
+  color: gray;
+  font-size: 16px;
+}
+
+.Product .Product-author-name {
+  color: black;
+}
+
+.Error404Page .Error404Page-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.WaldenSite-powered-by {
+  color: gray;
+  font-size: .75em;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: lowercase;
+}
