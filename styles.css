@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global */
+
+a {
+  color: #A50000;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #A50000;
+}
+
+/* Main layout */
+
+.ElytreSite {
+  background: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: auto;
+  max-width: 768px;
+  padding: 10px;
+}
+
+/* Header */
+
+.Header {
+  border-bottom: 3px solid white;
+  margin: auto;
+  max-width: 500px;
+  padding: 15px;
+  width: 100%;
+}
+
+.Header .Header-site-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.SearchForm {
+  display: flex;
+  margin: auto;
+  max-width: 300px;
+}
+
+.SearchForm-input {
+  margin-right: 10px;
+  width: 100%;
+}
+
+/* Global product styles */
+
+.Product {
+  margin: 20px 0;
+}
+
+.Product .Product-cover-image {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.Product .Product-title {
+  font-size: 20px;
+  margin-bottom: .25em;
+}
+
+.Product .Product-author {
+  color: gray;
+  font-size: 16px;
+}
+
+.Product .Product-author-name {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .Product {
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .Product-cover {
+    margin-right: 10px;
+  }
+}
+
+/* Product list */
+
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProductList .Product {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .ProductList .Product .Product-cover-image {
+    max-width: 150px;
+  }
+}
+
+/* Product page */
+
+.ProductPage .Product .Product-cover-image {
+  max-width: 250px;
+}
+
+.ProductPage .Product .Product-title {
+  font-size: 2rem;
+}
+
+ /* Error 404 Page */
+
+.Error404Page .Error404Page-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+
+.ElytreSite-powered-by {
+  color: gray;
+  font-size: .75em;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: lowercase;
+}
