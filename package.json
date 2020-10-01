@@ -11,6 +11,6 @@
     "build": "elytre build"
   },
   "dependencies": {
-    "elytre": "0.11.0"
+    "elytre": "0.12.0"
   }
 }
